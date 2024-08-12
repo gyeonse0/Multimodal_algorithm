@@ -81,7 +81,7 @@ class MultiModalState:
                 print("경고: 빈 리스트가 포함되어 있습니다.")  
         
         carrier_cost += route_count* 30 #고정비용(임금)
-        carrier_cost += 5
+        carrier_cost += 3
 
         self.carrier_cost = round(carrier_cost, 2)
         self.energy_cost = round(energy_cost, 2)
